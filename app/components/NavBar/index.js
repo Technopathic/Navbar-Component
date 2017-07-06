@@ -13,8 +13,8 @@ import './styleM.css';
 import Bars from 'react-icons/lib/fa/bars';
 
 export default class NavBar extends React.PureComponent {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       menuOpen:false
     }
